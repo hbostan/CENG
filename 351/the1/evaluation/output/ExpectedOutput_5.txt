@@ -1,0 +1,9 @@
+
+--------------------------------------------------------------
+*** Find the article which has the highest rating, ***
+Username	Date	Rating
+Greg Hewgill	2016-11-30	7147
+Greg Hewgill	2008-10-08	7147
+Greg Hewgill	2008-10-09	7147
+
+--------------------------------------------------------------

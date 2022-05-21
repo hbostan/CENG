@@ -1,0 +1,16 @@
+add|0|MacBook|Metal|Space Gray
+add|1|Ball|Glass|Space Gray
+add|2|iPhone|Plastic|Space Gray
+add|3|Car|Silicon|White
+add|4|Book|Glass|White
+add|5|Barbie|Plastic|Red
+add|6|iPad|Plastic|Tornado Red
+add|7|Barbie|Wooden|Blue
+add|8|MacBook|Plastic|Green
+add|9|He-Man|Wooden|Tornado Red
+add|10|iPad|Glass|Space Gray
+add|11|He-Man|Silicon|Rose Gold
+add|12|He-Man|Plastic|Red
+print
+search|11
+search|13

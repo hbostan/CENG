@@ -1,0 +1,53 @@
+# e2098812
+# Hakan Bostan
+# 
+# init moves the address of Stack to rsp and call Main
+# Main moves address of first element to rdi and calls
+# rsum_list. rsum_list first zeroes out rax and checks
+# is rdi is NULL or not. If it is NULL rsum_list returns
+# if not rcx is saved then value of element moved into rcx
+# after that rsum_list is called again with the address of
+# next element. after that returns rcx and return value is
+# summed up and returned.
+
+
+	.pos 0
+init:
+	irmovq Stack, %rsp	#Setup stack pointer
+	call Main		#Call Main
+	halt			#STAHP!!
+
+
+	.align 8
+ele1:
+	.quad 0x00a
+	.quad ele2
+ele2:
+	.quad 0x0b0
+	.quad ele3
+ele3:
+	.quad 0xc00
+	.quad 0
+
+Main:	irmovq ele1,%rdi
+	call rsum_list
+	ret
+
+rsum_list:
+	xorq %rax,%rax
+	andq %rdi,%rdi
+	je end
+	pushq %rcx
+	mrmovq (%rdi),%rcx
+	mrmovq 8(%rdi),%rdi
+	call rsum_list
+	addq %rcx,%rax
+	popq %rcx
+end:
+	ret
+
+	.pos 0x200
+
+Stack:
+
+

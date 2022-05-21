@@ -1,0 +1,8 @@
+
+--------------------------------------------------------------
+*** List username, comment message and rating of comments whose comment rating is more than given number of ratings for a given article, ***
+Username	Message	Rating
+Hans Passant	The use of scriptlets in JSP is indeed highly discouraged since the birth of taglibs and EL.	3280
+VonC	As a Safeguard: Disable Scriptlets For Good	372
+
+--------------------------------------------------------------

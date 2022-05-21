@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"<Unnamed>","l":"ResultTableModel"},{"p":"<Unnamed>","l":"RMIClient"},{"p":"<Unnamed>","l":"RMIImplementation"},{"p":"<Unnamed>","l":"RMIInterface"},{"p":"<Unnamed>","l":"RMIServer"},{"p":"<Unnamed>","l":"SerializableResult"}]

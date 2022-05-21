@@ -1,0 +1,160 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{amsmath}
+
+
+\usepackage[hmargin=3cm,vmargin=6.0cm]{geometry}
+%\topmargin=0cm
+\topmargin=-2cm
+\addtolength{\textheight}{6.5cm}
+\addtolength{\textwidth}{2.0cm}
+%\setlength{\leftmargin}{-5cm}
+\setlength{\oddsidemargin}{0.0cm}
+\setlength{\evensidemargin}{0.0cm}
+
+
+
+
+\begin{document}
+
+
+normal text \\ new line
+
+\textbf{bold}, \textit{italic} 
+
+\textbf{\textit{bold $\wedge$ italic }}
+
+special characters usage : \% \&
+
+text character x vs. variable $x$
+
+\textbf{sub} : $x_i$, $s'_i$ , \textbf{hyper} : $x^k$, \textbf{both} $x_i^k$
+
+\vspace*{20px} %use for spaces between, user defined number
+
+
+
+big operator with lower and upper indexes : $\sum_{i=0}^{K} x_i^t$
+
+you cannot put spaces in math mode $x   =    y   +   4$
+
+you can put spaces with special characters using :
+\begin{verbatim}
+ \ \quad \qquad 
+\end{verbatim}
+
+example of spacing in math mode $ x \ = \quad x \qquad + \ 1$
+
+equation and referencing the equation :
+
+
+\begin{equation} 
+\label{eu_eqn}
+e^{\pi i} - 1 = 0
+\end{equation}
+ 
+The beautiful equation \ref{eu_eqn} is known as the Euler equation
+
+aligned multiple lines :
+
+\begin{equation}
+\label{equation:value2}
+\begin{split}
+V^{\pi}(s) &= E_{\pi}[r_{t+1} + \gamma r_{t+2} + \gamma^{2}r_{t+3} ... | s_t = s] ,
+\\         &= E_{\pi}[r_{t+1} | s_t = s ] + \gamma E_{\pi}[r_{t+2} + \gamma r_{t+3} ... | s_t = s] ,
+\\         &= E_{\pi}[r_{t+1} + \gamma V^{\pi}(s_{t+1}) | s_t] , 
+\end{split}
+\end{equation}
+
+\begin{equation} 
+\label{eq1}
+\begin{split}
+A & = \frac{\pi r^2}{2} \\
+ & = \frac{1}{2} \pi r^2
+\end{split}
+\end{equation}
+
+aligning several equations :
+
+\begin{align*}
+x&=y           &  w &=z              &  a&=b+c\\
+2x&=-y         &  3w&=\frac{1}{2}z   &  a&=b\\
+-4 + 5x&=2+y   &  w+2&=-1+w          &  ab&=cb
+\end{align*}
+
+grouping and centering equations :
+
+\begin{gather*} 
+2x - 5y =  8 \\ 
+3x^2 + 9y =  3a + c
+\end{gather*}
+
+\vspace*{30px}
+
+itemize !!! student's best friend for increasing page count
+
+\begin{itemize}
+\item item 1
+\item item 2 
+
+\end{itemize}
+
+
+tables, easy construction yet exhausting due to placement issues, even though this text 
+is written above the table \ref{table:example} in the code, latex places the table 
+on top of the page.
+
+\begin{table}
+\small
+\centering
+\caption{ example table for $foo$ }
+\label{table:example}
+\begin{tabular}{|c|c|c|c|c|c|}	%% specify column number
+\hline 							%% line draw
+\textbf{title1} & \textbf{title2} & \textbf{title3} & \textbf{title4} & \textbf{title5} & \textbf{title6} \\
+\hline 
+\hline 
+text & 0 & text & 20 & text & $a_0$\\			%% rows distinguished with &
+text & 0 & & & & \\
+text & 0 & $foo$ & 0 & $\pi(s = 1)$ & $a_2$\\
+ &  & $foo$ & 0 & $\pi(s = 3)$ & $\emptyset$\\
+
+
+\hline 
+\end{tabular}
+\end{table}
+
+
+if you want to put table \ref{table:put-here} here put the option [H] in the $begin$ tag in the code :
+
+\begin{table}[H]
+\small
+\centering
+\caption{beautiful caption }
+\label{table:put-here}
+\begin{tabular}{|c|c|c|c|c|c|c|c|} %% specify column number
+\cline{2-7} 						%% specify column line
+\multicolumn{1}{c|}{} & \multicolumn{6}{c|}{\textbf{Multi-Column Title}} & \multicolumn{1}{c}{}\\
+\cline{2-8} 						
+\multicolumn{1}{c|}{} & title & title & title & title & title & title & title\\
+\hline 
+$foo$ &  & text & text & text &  &  & \\
+$hoo$ & text & text & text &  & text &  & \\
+\hline
+\textbf{$foohoo$} & text & text & text & text & text &  & \textbf{83\%}\\
+\hline 
+\end{tabular}
+\end{table}
+
+
+$\hat{\sigma}_{\hat{m}_mle}^2 = \frac{\hat{\theta}_mle^2}{n} [1 + \frac{6(1 - \epsilon)^2}{\pi^2}] = \frac{1.10867 \hat{\theta}_mle^2}{n} \hat{\sigma}_{\hat{\theta}_mle}^2 = \frac{6}{\pi^2} \frac{\hat{\theta}_mle^2}{n} = \frac{0.60793 \hat{\theta}_mle^2}{n}
+$
+
+
+\end{document}
+
+​
+
+
+

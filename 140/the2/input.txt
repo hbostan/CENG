@@ -1,0 +1,10 @@
+8
+fish 4
+pizza 2
+kite 7
+car 2
+spoon 1
+pen 9
+key 3
+towel 5
+pen key book car spoon spoon key box kite car pen towel box kite dog dog book

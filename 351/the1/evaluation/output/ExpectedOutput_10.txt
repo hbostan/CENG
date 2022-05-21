@@ -1,0 +1,8 @@
+
+--------------------------------------------------------------
+*** List the userID, username and last login date of user/s who comment all the articles commented by a given user ***
+UserID	Username	LastLoginDate
+U101	Jon Skeet	2016-11-29
+U109	Greg Hewgill	2017-01-05
+
+--------------------------------------------------------------

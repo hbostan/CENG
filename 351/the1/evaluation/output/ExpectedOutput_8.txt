@@ -1,0 +1,6 @@
+
+--------------------------------------------------------------
+*** Multiply rating of the comment by 2 whose date is after for a given date ***
+13 rows are changed.
+
+--------------------------------------------------------------

@@ -1,0 +1,6 @@
+
+--------------------------------------------------------------
+*** Find the article whose date is before given date and whose user has the highest weeklyReputation ***
+Username	Date	Rating
+Jon Skeet	2010-07-05	1232
+Jon Skeet	2008-04-10	75

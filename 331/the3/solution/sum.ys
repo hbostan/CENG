@@ -1,0 +1,45 @@
+# e2098812
+# Hakan Bostan
+# init moves the address of stack to rsp and calls Main
+# Main moves the address of ele 1 to rdi and calls sum_list
+# sum_list zeroes out the rax and checks if rdi is null. if not
+# loop starts.
+# During loop value at the (rdi) is taken and added to rax
+# then rdi is moved 8 bytes to get the pointer of the next element
+# this goes on until rdi is 0 (i.e. NULL). Then funtion returns.
+
+init:		irmovq Stack, %rsp	#Setup stack pointer
+		call Main		#Call Main
+		halt			#STAHP!!
+
+
+	.align 8
+ele1:
+	.quad 0x00a
+	.quad ele2
+ele2:
+	.quad 0x0b0
+	.quad ele3
+ele3:
+	.quad 0xc00
+	.quad 0
+
+Main:		irmovq ele1,%rdi
+		call sum_list
+		ret
+
+sum_list:	xorq %rax,%rax
+		andq %rdi,%rdi
+		je end
+loop:		mrmovq (%rdi),%rcx
+		addq %rcx,%rax
+		mrmovq 8(%rdi),%rdi
+		andq %rdi,%rdi
+		je end
+		jmp loop
+end:		ret
+
+	.pos 0x200
+Stack:
+
+

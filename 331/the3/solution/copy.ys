@@ -1,0 +1,61 @@
+#	e2098812
+#	Hakan Bostan
+#	In this code I first started by moving the address
+#	of stack into the RSP register, then I called Main
+#	which calls copy_block. In Main I set up the regis
+#	ters moving the address of src,dest,len to RDI,RSI
+#	RDX, respectively. copy_block, zeroes out the RAX.
+#	then moves 8 and -1 to R8 and R9 respectively. So
+#	that we can incremennt our address by 8 and reduce
+#	our length by 1 using these register. Loop copies 
+#	the data in src[i] to dest[i] and the loop continues
+#	as long as rdx is not 0. Thus working throughout the
+#	size of the block. After all is done copy_block, and
+#	Main returns. So that the machine HALTs.
+#
+        .pos 0
+init:
+        irmovq Stack,%rsp
+        call Main
+        halt
+
+        .align 8
+src:
+        .quad 0x00a
+        .quad 0x0b0
+        .quad 0xc00
+# Destination block
+dest:
+        .quad 0x111
+        .quad 0x222
+        .quad 0x333
+
+Main:
+        irmovq src,%rdi
+        irmovq dest,%rsi
+        irmovq $3,%rdx
+        call copy_block
+        ret
+
+copy_block:
+        xorq %rax,%rax
+        irmovq $8,%r8
+        irmovq $-1,%r9
+        andq %rdx,%rdx
+        je end
+loop:
+        mrmovq (%rdi),%rcx
+        rmmovq %rcx,(%rsi)
+        xorq %rcx,%rax
+        addq %r8,%rdi
+        addq %r8,%rsi
+        addq %r9,%rdx
+        jne loop
+end:
+        ret
+
+        .pos 0x200
+
+Stack:
+
+

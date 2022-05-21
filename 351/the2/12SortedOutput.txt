@@ -1,0 +1,45 @@
+<index>
+6
+</index>
+	<index>
+	2
+	4
+	</index>
+		<data>
+		<record>0|MacBook|Metal|Space Gray</record>
+		<record>1|Ball|Glass|Space Gray</record>
+		</data>
+		<data>
+		<record>2|iPhone|Plastic|Space Gray</record>
+		<record>3|Car|Silicon|White</record>
+		</data>
+		<data>
+		<record>4|Book|Glass|White</record>
+		<record>5|Barbie|Plastic|Red</record>
+		</data>
+	<index>
+	8
+	10
+	</index>
+		<data>
+		<record>6|iPad|Plastic|Tornado Red</record>
+		<record>7|Barbie|Wooden|Blue</record>
+		</data>
+		<data>
+		<record>8|MacBook|Plastic|Green</record>
+		<record>9|He-Man|Wooden|Tornado Red</record>
+		</data>
+		<data>
+		<record>10|iPad|Glass|Space Gray</record>
+		<record>11|He-Man|Silicon|Rose Gold</record>
+		<record>12|He-Man|Plastic|Red</record>
+		</data>
+<index>
+6
+</index>
+	<index>
+	8
+	10
+	</index>
+		<record>11|He-Man|Silicon|Rose Gold</record>
+Could not find 13.

@@ -1,0 +1,17 @@
+A101	U105	Breaking out of nested loops in Java	How can I break out of both loops. I've looked at similar questions, but none concerns Java specifically.	2009-05-20	1171
+A102	U103	How to get current page URL in MVC 3	I am using the Facebook comments plugin on a blog I am building.	2011-03-14	233
+A103	U101	How to avoid Java code in JSP files?	I'm new to Java EE and I know that something like the following three lines	2010-07-05	1232
+A104	U101	How to fix the flickering in User controls	How to fix the flickering in User controls	2008-04-10	75
+A105	U104	How to get a random number in Ruby	How do I generate a random number between 0 and n?	2008-09-13	592
+A106	U102	Difference between decimal, float and double in .NET?	What is the difference between decimal, float and double in .NET?	2009-03-06	1405
+A107	U105	Calculate the execution time of a method	How do I measure how long a function is running?	2013-11-20	202
+A108	U106	Random number generator only generating one random number	If I step that loop with the debugger during runtime (which is what I want).	2009-05-20	502
+A109	U107	Quitting an application - is that frowned upon?	Moving on in my attempt to learn Android, I just read the following:	2014-08-28	878
+A110	U109	Difference between 'git pull' and 'git fetch'	What are the differences between git pull and git fetch?	2016-11-30	7147
+A111	U108	How do I check if string contains substring?	I have a shopping cart that displays product options in a dropdown menu	2008-10-10	603
+A112	U110	Why is 1000000000000000 in range(1000000000000001) so fast in Python 3?		2016-09-20	838
+A113	U106	Where to place Assets folder in Android Studio	I am confused about the Assets folder.	2016-01-16	830
+A114	U108	Call one constructor from another		2016-01-15	536
+A115	U109	Reset or revert a specific file to a specific revision using Git?	I have made some changes to a file which has been committed a few times	2008-10-08	7147
+A116	U109	Reset or revert a specific file to a specific revision using Git?	I have made some changes to a file which has been committed a few times	2008-10-09	7147
+A117	U109	Reset or revert a specific file to a specific revision using Git?		2008-10-09	7147

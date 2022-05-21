@@ -1,0 +1,15 @@
+
+--------------------------------------------------------------
+*** List the article name, username, article date and article rating of articles commented by this user such that none of these articles are commented by any other user, ***
+Name	Username	Date	Rating
+Calculate the execution time of a method	BalusC	2013-11-20	202
+Call one constructor from another	Hans Passant	2016-01-15	536
+Difference between 'git pull' and 'git fetch'	SLaks	2016-11-30	7147
+Difference between decimal, float and double in .NET?	Hans Passant	2009-03-06	1405
+How to get current page URL in MVC 3	VonC	2011-03-14	233
+Quitting an application - is that frowned upon?	SLaks	2014-08-28	878
+Random number generator only generating one random number	CommonsWare	2009-05-20	502
+Reset or revert a specific file to a specific revision using Git?	CommonsWare	2008-10-08	7147
+Why is 1000000000000000 in range(1000000000000001) so fast in Python 3?	BalusC	2016-09-20	838
+
+--------------------------------------------------------------

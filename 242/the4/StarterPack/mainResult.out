@@ -1,0 +1,159 @@
+./WarSimulator "3Kingdoms.txt"
+War has started with 2 kingdoms.
+---------------
+Duel 1: Kingdom1 vs Kingdom2
+  Duel between NobleHouse1(30) -WIZ- and NobleHouse1(30) -WIZ- has begun.
+    WizardNH1(440) hit WizardNH1(440) 145.
+    WizardNH1(295) hit WizardNH1(440) 145.
+    ****
+    WizardNH1(295) took 20 damage as DOT.
+    WizardNH1(295) took 20 damage as DOT.
+    WizardNH1(275) hit WizardNH1(275) 145.
+    WizardNH1(130) hit WizardNH1(275) 145.
+    ****
+    WizardNH1(130) took 40 damage as DOT.
+    WizardNH1(130) took 40 damage as DOT.
+    WizardNH1(90) hit WizardNH1(90) 145.
+    WizardNH1(-55) hit WizardNH1(90) 145.
+    ****
+    Both of them are dead. A draw.
+  Duel between NobleHouse2(30) -WHI- and NobleHouse2(30) -WHI- has begun.
+    WhitewalkerNH2(540) hit WhitewalkerNH2(540) 150.
+    WhitewalkerNH2(390) hit WhitewalkerNH2(540) 150.
+    ****
+    WhitewalkerNH2(390) took 30 damage as DOT.
+    WhitewalkerNH2(390) took 30 damage as DOT.
+    WhitewalkerNH2(360) hit WhitewalkerNH2(360) 150.
+    WhitewalkerNH2(210) hit WhitewalkerNH2(360) 150.
+    ****
+    WhitewalkerNH2(210) took 60 damage as DOT.
+    WhitewalkerNH2(210) took 60 damage as DOT.
+    WhitewalkerNH2(150) hit WhitewalkerNH2(150) 150.
+    WhitewalkerNH2(0) hit WhitewalkerNH2(150) 150.
+    ****
+    Both of them are dead. A draw.
+  Duel between NobleHouse3(30) -WIL- and NobleHouse3(30) -WIL- has begun.
+    WildlingNH3(390) hit WildlingNH3(390) 170.
+    WildlingNH3(220) hit WildlingNH3(390) 170.
+    ****
+    WildlingNH3(220) took 25 damage as DOT.
+    WildlingNH3(220) took 25 damage as DOT.
+    WildlingNH3(195) hit WildlingNH3(195) 170.
+    WildlingNH3(25) hit WildlingNH3(195) 170.
+    ****
+    WildlingNH3(25) took 50 damage as DOT.
+    WildlingNH3(25) took 50 damage as DOT.
+    WildlingNH3(-25) hit WildlingNH3(-25) 170.
+    WildlingNH3(-195) hit WildlingNH3(-25) 170.
+    ****
+    Both of them are dead. A draw.
+  Duel between NobleHouse1(30) -WIZ- and NobleHouse2(30) -WHI- has begun.
+    WizardNH1(440) hit WhitewalkerNH2(540) 145.
+    WhitewalkerNH2(395) hit WizardNH1(440) 150.
+    ****
+    WizardNH1(290) took 30 damage as DOT.
+    WhitewalkerNH2(395) took 20 damage as DOT.
+    WizardNH1(260) hit WhitewalkerNH2(375) 145.
+    WhitewalkerNH2(230) hit WizardNH1(260) 150.
+    ****
+    WizardNH1(110) took 60 damage as DOT.
+    WhitewalkerNH2(230) took 40 damage as DOT.
+    WizardNH1(50) hit WhitewalkerNH2(190) 145.
+    WhitewalkerNH2(45) hit WizardNH1(50) 150.
+    ****
+    WhitewalkerNH2(45) has won.
+  Duel between NobleHouse2(30) -WHI- and NobleHouse3(30) -WIL- has begun.
+    WhitewalkerNH2(540) hit WildlingNH3(390) 150.
+    WildlingNH3(240) hit WhitewalkerNH2(540) 170.
+    ****
+    WhitewalkerNH2(370) took 25 damage as DOT.
+    WildlingNH3(240) took 30 damage as DOT.
+    WhitewalkerNH2(345) hit WildlingNH3(210) 150.
+    WildlingNH3(60) hit WhitewalkerNH2(345) 170.
+    ****
+    WhitewalkerNH2(175) took 50 damage as DOT.
+    WildlingNH3(60) took 60 damage as DOT.
+    WhitewalkerNH2(125) hit WildlingNH3(0) 150.
+    WildlingNH3(-150) hit WhitewalkerNH2(125) 170.
+    ****
+    Both of them are dead. A draw.
+  Duel between NobleHouse3(30) -WIL- and NobleHouse1(30) -WIZ- has begun.
+    WildlingNH3(390) hit WizardNH1(440) 170.
+    WizardNH1(270) hit WildlingNH3(390) 145.
+    ****
+    WildlingNH3(245) took 20 damage as DOT.
+    WizardNH1(270) took 25 damage as DOT.
+    WildlingNH3(225) hit WizardNH1(245) 170.
+    WizardNH1(75) hit WildlingNH3(225) 145.
+    ****
+    WildlingNH3(80) took 40 damage as DOT.
+    WizardNH1(75) took 50 damage as DOT.
+    WildlingNH3(40) hit WizardNH1(25) 170.
+    WizardNH1(-145) hit WildlingNH3(40) 145.
+    ****
+    Both of them are dead. A draw.
+  Duel between NobleHouse1(27) -WIZ- and NobleHouse3(30) -WIL- has begun.
+    WizardNH1(440) hit WildlingNH3(390) 142.
+    WildlingNH3(248) hit WizardNH1(440) 170.
+    ****
+    WizardNH1(270) took 25 damage as DOT.
+    WildlingNH3(248) took 20 damage as DOT.
+    WizardNH1(245) hit WildlingNH3(228) 142.
+    WildlingNH3(86) hit WizardNH1(245) 170.
+    ****
+    WizardNH1(75) took 50 damage as DOT.
+    WildlingNH3(86) took 40 damage as DOT.
+    WizardNH1(25) hit WildlingNH3(46) 142.
+    WildlingNH3(-96) hit WizardNH1(25) 170.
+    ****
+    Both of them are dead. A draw.
+  Duel between NobleHouse2(30) -WHI- and NobleHouse1(30) -WIZ- has begun.
+    WhitewalkerNH2(540) hit WizardNH1(440) 150.
+    WizardNH1(290) hit WhitewalkerNH2(540) 145.
+    ****
+    WhitewalkerNH2(395) took 20 damage as DOT.
+    WizardNH1(290) took 30 damage as DOT.
+    WhitewalkerNH2(375) hit WizardNH1(260) 150.
+    WizardNH1(110) hit WhitewalkerNH2(375) 145.
+    ****
+    WhitewalkerNH2(230) took 40 damage as DOT.
+    WizardNH1(110) took 60 damage as DOT.
+    WhitewalkerNH2(190) hit WizardNH1(50) 150.
+    WizardNH1(-100) hit WhitewalkerNH2(190) 145.
+    ****
+    WhitewalkerNH2(45) has won.
+  Duel between NobleHouse3(30) -WIL- and NobleHouse2(33) -WHI- has begun.
+    WildlingNH3(390) hit WhitewalkerNH2(540) 170.
+    WhitewalkerNH2(370) hit WildlingNH3(390) 153.
+    ****
+    WildlingNH3(237) took 30 damage as DOT.
+    WhitewalkerNH2(370) took 25 damage as DOT.
+    WildlingNH3(207) hit WhitewalkerNH2(345) 170.
+    WhitewalkerNH2(175) hit WildlingNH3(207) 153.
+    ****
+    WildlingNH3(54) took 60 damage as DOT.
+    WhitewalkerNH2(175) took 50 damage as DOT.
+    WildlingNH3(-6) hit WhitewalkerNH2(125) 170.
+    WhitewalkerNH2(-45) hit WildlingNH3(-6) 153.
+    ****
+    Both of them are dead. A draw.
+  Duel between GreatHouse1(50) -WIZ- and GreatHouse1(50) -WIZ- has begun.
+    WizardGH(465) hit WizardGH(465) 165.
+    WizardGH(300) hit WizardGH(465) 165.
+    ****
+    WizardGH(300) took 20 damage as DOT.
+    WizardGH(300) took 20 damage as DOT.
+    WizardGH(280) hit WizardGH(280) 165.
+    WizardGH(115) hit WizardGH(280) 165.
+    ****
+    WizardGH(115) took 40 damage as DOT.
+    WizardGH(115) took 40 damage as DOT.
+    WizardGH(75) hit WizardGH(75) 165.
+    WizardGH(-90) hit WizardGH(75) 165.
+    ****
+    Both of them are dead. A draw.
+  Kingdom1 got 1 house points. Kingdom2 got 1 house points.
+
+A draw.
+The War is over. The new owners of King's Landing are Kingdom1, and Kingdom2.
+

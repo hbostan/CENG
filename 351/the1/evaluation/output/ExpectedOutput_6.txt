@@ -1,0 +1,8 @@
+
+--------------------------------------------------------------
+*** Find the user whose comment message does not contain 'mysql' and the comment has the lowest rating ***
+Username	Message	Rating	AlltimeReputation
+Greg Hewgill	I'd just like to add a correction here for the future readers of this thread.	0	562277
+VonC	When you use pull, Git tries to automatically do your work for you.	0	637597
+
+--------------------------------------------------------------

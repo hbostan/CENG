@@ -1,0 +1,8 @@
+
+--------------------------------------------------------------
+*** Delete rating of the articles for a given date and list the username, date and rating of these articles ***
+Username	Date	Rating
+Hans Passant	2008-09-13	592
+Jon Skeet	2008-04-10	75
+
+--------------------------------------------------------------

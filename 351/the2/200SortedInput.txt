@@ -1,0 +1,204 @@
+add|0|He-Man|Glass|Blue
+add|1|Ball|Glass|Rose Gold
+add|2|iPad|Metal|Space Gray
+add|3|Car|Metal|Blue
+add|4|He-Man|Plastic|Blue
+add|5|Book|Plastic|Red
+add|6|Book|Metal|White
+add|7|iPad|Silicon|Rose Gold
+add|8|Ball|Wooden|Blue
+add|9|Book|Silicon|White
+add|10|Book|Plastic|White
+add|11|Car|Wooden|Red
+add|12|iPhone|Wooden|Space Gray
+add|13|MacBook|Silicon|Black
+add|14|iPad|Wooden|Blue
+add|15|Car|Metal|Tornado Red
+add|16|Car|Glass|Green
+add|17|MacBook|Glass|Green
+add|18|Car|Wooden|Blue
+add|19|iPad|Glass|Green
+add|20|MacBook|Wooden|Black
+add|21|Barbie|Wooden|Tornado Red
+add|22|Book|Glass|Rose Gold
+add|23|MacBook|Plastic|Black
+add|24|iPad|Wooden|Space Gray
+add|25|iPad|Silicon|Tornado Red
+add|26|Barbie|Glass|Red
+add|27|Ball|Metal|Blue
+add|28|Ball|Metal|Space Gray
+add|29|Barbie|Plastic|White
+add|30|MacBook|Silicon|White
+add|31|Barbie|Glass|White
+add|32|iPad|Glass|White
+add|33|Barbie|Glass|Green
+add|34|Book|Plastic|Green
+add|35|He-Man|Glass|Red
+add|36|iPad|Glass|Black
+add|37|Barbie|Wooden|White
+add|38|Book|Silicon|White
+add|39|Barbie|Wooden|Space Gray
+add|40|Book|Wooden|Rose Gold
+add|41|iPad|Metal|Black
+add|42|He-Man|Wooden|Space Gray
+add|43|Barbie|Silicon|Red
+add|44|iPhone|Metal|Green
+add|45|He-Man|Wooden|Blue
+add|46|iPhone|Glass|Green
+add|47|Car|Wooden|Space Gray
+add|48|He-Man|Wooden|Rose Gold
+add|49|MacBook|Metal|Blue
+add|50|Car|Plastic|Green
+add|51|He-Man|Glass|Blue
+add|52|Barbie|Silicon|White
+add|53|Book|Wooden|Red
+add|54|He-Man|Plastic|White
+add|55|iPhone|Metal|Tornado Red
+add|56|Ball|Plastic|White
+add|57|iPhone|Metal|Black
+add|58|iPhone|Metal|Green
+add|59|Book|Silicon|Blue
+add|60|Car|Silicon|White
+add|61|Ball|Plastic|Green
+add|62|Barbie|Plastic|Red
+add|63|MacBook|Glass|Green
+add|64|iPad|Silicon|White
+add|65|Barbie|Wooden|Blue
+add|66|Ball|Wooden|Rose Gold
+add|67|Barbie|Glass|Black
+add|68|MacBook|Plastic|Black
+add|69|He-Man|Wooden|Green
+add|70|Barbie|Plastic|Green
+add|71|iPhone|Wooden|Black
+add|72|iPad|Wooden|Space Gray
+add|73|Barbie|Metal|Green
+add|74|iPhone|Metal|Tornado Red
+add|75|MacBook|Glass|Green
+add|76|Car|Glass|Rose Gold
+add|77|iPhone|Metal|Rose Gold
+add|78|Barbie|Silicon|Green
+add|79|He-Man|Wooden|Rose Gold
+add|80|Ball|Wooden|Tornado Red
+add|81|Car|Glass|Blue
+add|82|He-Man|Glass|Tornado Red
+add|83|Book|Metal|Red
+add|84|Ball|Plastic|White
+add|85|Book|Plastic|Red
+add|86|Ball|Silicon|Green
+add|87|Book|Wooden|Red
+add|88|iPad|Wooden|Red
+add|89|Barbie|Silicon|Blue
+add|90|He-Man|Plastic|Green
+add|91|Car|Silicon|Space Gray
+add|92|Car|Silicon|Rose Gold
+add|93|Barbie|Silicon|Tornado Red
+add|94|He-Man|Glass|Tornado Red
+add|95|iPad|Silicon|Red
+add|96|He-Man|Wooden|Blue
+add|97|iPad|Silicon|White
+add|98|Car|Wooden|Space Gray
+add|99|iPad|Metal|Tornado Red
+add|100|MacBook|Glass|Tornado Red
+add|101|Car|Wooden|Red
+add|102|iPhone|Wooden|Space Gray
+add|103|Car|Metal|Space Gray
+add|104|Book|Metal|Black
+add|105|Ball|Silicon|Red
+add|106|MacBook|Metal|Rose Gold
+add|107|Book|Silicon|Red
+add|108|Book|Metal|Black
+add|109|Car|Metal|Red
+add|110|iPad|Silicon|Green
+add|111|MacBook|Metal|Green
+add|112|Book|Silicon|White
+add|113|Car|Silicon|Rose Gold
+add|114|iPad|Metal|Red
+add|115|Car|Wooden|Black
+add|116|Car|Glass|Black
+add|117|Car|Wooden|Green
+add|118|Car|Glass|Red
+add|119|iPhone|Silicon|Blue
+add|120|Book|Plastic|Red
+add|121|Car|Plastic|Rose Gold
+add|122|He-Man|Wooden|Tornado Red
+add|123|Car|Metal|Space Gray
+add|124|Car|Glass|Space Gray
+add|125|Barbie|Silicon|Tornado Red
+add|126|Barbie|Glass|Black
+add|127|Ball|Plastic|Blue
+add|128|He-Man|Glass|Space Gray
+add|129|Car|Glass|Rose Gold
+add|130|Barbie|Wooden|Blue
+add|131|Book|Plastic|Rose Gold
+add|132|Ball|Plastic|Black
+add|133|Book|Glass|Tornado Red
+add|134|iPhone|Wooden|Space Gray
+add|135|Ball|Wooden|Red
+add|136|iPad|Plastic|Blue
+add|137|iPad|Wooden|Rose Gold
+add|138|MacBook|Silicon|Blue
+add|139|iPhone|Glass|Green
+add|140|iPhone|Glass|Black
+add|141|Ball|Wooden|Green
+add|142|Book|Metal|Blue
+add|143|He-Man|Silicon|Rose Gold
+add|144|MacBook|Metal|Black
+add|145|Book|Plastic|Blue
+add|146|He-Man|Glass|White
+add|147|Book|Metal|Green
+add|148|Ball|Wooden|Red
+add|149|Car|Plastic|Space Gray
+add|150|MacBook|Metal|Tornado Red
+add|151|MacBook|Glass|Green
+add|152|Book|Wooden|Green
+add|153|iPhone|Plastic|Tornado Red
+add|154|He-Man|Glass|Rose Gold
+add|155|Barbie|Wooden|Rose Gold
+add|156|Ball|Wooden|Blue
+add|157|He-Man|Silicon|Tornado Red
+add|158|iPhone|Glass|Black
+add|159|Car|Plastic|Green
+add|160|Car|Glass|Rose Gold
+add|161|MacBook|Wooden|White
+add|162|Barbie|Plastic|Tornado Red
+add|163|He-Man|Wooden|Black
+add|164|iPhone|Silicon|Black
+add|165|Ball|Glass|Tornado Red
+add|166|iPhone|Metal|Space Gray
+add|167|Book|Silicon|Red
+add|168|MacBook|Silicon|Black
+add|169|iPad|Wooden|White
+add|170|He-Man|Silicon|Tornado Red
+add|171|Car|Glass|Black
+add|172|iPhone|Wooden|White
+add|173|iPad|Wooden|Green
+add|174|He-Man|Glass|Black
+add|175|iPhone|Metal|Rose Gold
+add|176|He-Man|Wooden|Space Gray
+add|177|Barbie|Metal|Blue
+add|178|MacBook|Wooden|Rose Gold
+add|179|Ball|Glass|Space Gray
+add|180|iPad|Plastic|Black
+add|181|Barbie|Silicon|Space Gray
+add|182|Book|Wooden|Blue
+add|183|Book|Plastic|Space Gray
+add|184|Barbie|Metal|Red
+add|185|iPad|Plastic|Blue
+add|186|He-Man|Silicon|Green
+add|187|MacBook|Silicon|Red
+add|188|iPhone|Glass|Tornado Red
+add|189|MacBook|Metal|White
+add|190|He-Man|Wooden|Black
+add|191|Book|Plastic|Red
+add|192|Car|Plastic|Red
+add|193|Ball|Glass|Blue
+add|194|MacBook|Glass|Green
+add|195|Barbie|Plastic|Rose Gold
+add|196|iPad|Silicon|Rose Gold
+add|197|iPad|Wooden|Red
+add|198|MacBook|Silicon|Rose Gold
+add|199|iPad|Wooden|Rose Gold
+print
+search|1
+search|199
+quit

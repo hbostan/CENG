@@ -1,0 +1,179 @@
+#/* $begin ncopy-ys */
+##################################################################
+# ncopy.ys - Copy a src block of len words to dst.
+# Return the number of positive words (>0) contained in src.
+#
+# Hakan Bostan
+# e2098812
+#
+# In my code, I changed the loop by changing it with a loop with loop
+# unrolling with a factor of 10 (i.e. with each iteration my loop copies
+# 10 elements from src to dest.). While copying the elements I avoided
+# making consecutive memory read, and memory writes (i.e. mrmovq and rmmovq
+# are never consecutive) in order to avoid bubbles. That lead to having
+# two memeory reads followed by two memory writes. Also in the loop, after,
+# copying src to dest, I checked the elements I have just copied, if they were
+# positive I incremented RAX by one. After my loop there are len%10 elements
+# that I haven't copied yet, so I copied these remaining elements one by one.
+# To do this I have used a jump table. I multiplied the remaining len (RDX) by
+# 8 to get a proper jump address from the table. Then I pushed the address that
+# I got from jump table and applied a ret instruction in order to jump to the
+# location that the table referenced. Also before performing jump table lookup
+# I have copied all usable empty registers in order to avoid bubbles during
+# copying elements one by one. Also my jump table is like a switch statement
+# 
+#
+##################################################################
+# Do not modify this portion
+# Function prologue.
+# %rdi = src, %rsi = dst, %rdx = len
+ncopy:
+
+##################################################################
+# You can modify this portion
+	# Loop header
+	xorq %rax,%rax		# count = 0;
+	#andq %rdx,%rdx		# len <= 0?
+	#jle Done		# if so, goto Done:
+	iaddq $-10,%rdx
+	jl EXIT
+Loop:	mrmovq (%rdi), %r8	
+	mrmovq 8(%rdi), %r9	
+	rmmovq %r8, (%rsi)
+	rmmovq %r9, 8(%rsi)
+	andq %r8, %r8		
+	jle A			
+	iaddq $1,%rax		
+A:	andq %r9,%r9
+	jle B
+	iaddq $1,%rax
+B:	mrmovq 16(%rdi), %r8	
+	mrmovq 24(%rdi), %r9	
+	rmmovq %r8, 16(%rsi)
+	rmmovq %r9, 24(%rsi)
+	andq %r8, %r8		
+	jle C			
+	iaddq $1,%rax
+C:	andq %r9, %r9
+	jle D
+	iaddq $1,%rax		
+D:	mrmovq 32(%rdi), %r8	
+	mrmovq 40(%rdi), %r9	
+	rmmovq %r8, 32(%rsi)
+	rmmovq %r9, 40(%rsi)
+	andq %r8, %r8		
+	jle E			
+	iaddq $1,%rax
+E:	andq %r9, %r9
+	jle F
+	iaddq $1,%rax		
+F:	mrmovq 48(%rdi), %r8	
+	mrmovq 56(%rdi), %r9	
+	rmmovq %r8, 48(%rsi)
+	rmmovq %r9, 56(%rsi)
+	andq %r8, %r8		
+	jle G			
+	iaddq $1,%rax
+G:	andq %r9, %r9
+	jle H
+	iaddq $1,%rax		
+H:	mrmovq 64(%rdi), %r8	
+	mrmovq 72(%rdi), %r9	
+	rmmovq %r8, 64(%rsi)
+	rmmovq %r9, 72(%rsi)
+	andq %r8, %r8		
+	jle I			
+	iaddq $1,%rax
+I:	andq %r9, %r9
+	jle NEXT
+	iaddq $1,%rax
+
+NEXT:	iaddq $80,%rdi
+	iaddq $80,%rsi
+	iaddq $-10, %rdx
+	jge Loop
+EXIT:	#iaddq $10,%rdx
+	addq %rdx,%rdx
+	addq %rdx,%rdx
+	addq %rdx,%rdx
+
+	mrmovq (%rdi),%r8
+	mrmovq 8(%rdi), %r9
+	mrmovq 16(%rdi), %r10
+	mrmovq 24(%rdi), %r11
+	#mrmovq 64(%rdi), %rcx
+
+	mrmovq J(%rdx),%rdx
+	pushq %rdx
+	ret
+
+J9:	mrmovq 64(%rdi), %rcx
+	rmmovq %rcx, 64(%rsi)
+	andq %rcx,%rcx
+	jle J8
+	iaddq $1,%rax
+J8:	mrmovq 56(%rdi), %rcx
+	rmmovq %rcx, 56(%rsi)
+	andq %rcx,%rcx
+	jle J7
+	iaddq $1,%rax
+J7:	mrmovq 48(%rdi), %rcx
+	rmmovq %rcx, 48(%rsi)
+	andq %rcx,%rcx
+	jle J6
+	iaddq $1,%rax
+J6:	mrmovq 40(%rdi), %rcx
+	rmmovq %rcx, 40(%rsi)
+	andq %rcx,%rcx
+	jle J5
+	iaddq $1,%rax
+J5:	mrmovq 32(%rdi), %rcx
+	rmmovq %rcx, 32(%rsi)
+	andq %rcx,%rcx
+	jle J4
+	iaddq $1,%rax
+J4:	#mrmovq 24(%rdi), %r11
+	rmmovq %r11, 24(%rsi)
+	andq %r11,%r11
+	jle J3
+	iaddq $1,%rax
+J3:	#mrmovq 16(%rdi), %r10
+	rmmovq %r10, 16(%rsi)
+	andq %r10,%r10
+	jle J2
+	iaddq $1,%rax
+J2:	#mrmovq 8(%rdi), %r9
+	rmmovq %r9, 8(%rsi)
+	andq %r9,%r9
+	jle J1
+	iaddq $1,%rax
+J1:	#mrmovq (%rdi), %r8
+	rmmovq %r8, (%rsi)
+	andq %r8,%r8
+	jle BIT
+	iaddq $1,%rax
+BIT:	ret
+
+.align 8
+	.quad BIT
+	.quad J1
+	.quad J2
+	.quad J3
+	.quad J4
+	.quad J5
+	.quad J6
+	.quad J7
+	.quad J8
+	.quad J9
+J:
+
+
+##################################################################
+# Do not modify the following section of code
+# Function epilogue.
+Done:
+	ret
+##################################################################
+# Keep the following label at the end of your function
+End:
+#/* $end ncopy-ys */

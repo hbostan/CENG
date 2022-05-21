@@ -1,0 +1,22 @@
+
+--------------------------------------------------------------
+*** List the username, message, and rating of comments which does not contain given string in their message ant it's rating is more than given rating ***
+Username	Message	Rating
+BalusC	Stopwatch is designed for this purpose and is one of the best way to measure time execution.	786
+BalusC	You could use search or match for this.str.search( 'Yes' )	1005
+BalusC	Assuming the commit you want is abcde:git checkout abcde file/to/restore	412
+CommonsWare	Every time you do new Random() it is initialized using the clock.	555
+Darin Dimitrov	You can quickly review the changes made to a file using the diff command:	1988
+Darin Dimitrov	While you can use rand(42-10) + 10 to get a random number between 10 and 42.	1032
+Greg Hewgill	In the simplest terms, git pull does a git fetch followed by a git merge.	1130
+Hans Passant	float and double are floating binary point types.	1650
+Hans Passant	The use of scriptlets in JSP is indeed highly discouraged since the birth of taglibs and EL.	3280
+Jon Skeet	What is wrong with rand(range)?	764
+Martijn Pieters	Like this:if (str.indexOf("Yes") >= 0)	1108
+SLaks	The Python 3 range() object doesn't produce numbers immediately; it is a smart sequence object that produces numbers on demand.	556
+VonC	When you use pull, Git tries to automatically do your work for you.	588
+VonC	As a Safeguard: Disable Scriptlets For Good	372
+VonC	It is not the kind of flicker that double-buffering can solve.	454
+VonC	Like this:	430
+
+--------------------------------------------------------------
